@@ -1,0 +1,42 @@
+
+ .LayoutStudies {
+    height: 100vh;
+    position: relative;
+ }
+ .Studies {
+    position: absolute;
+    width: 100%;
+ }
+ .Studies-item{
+   display: flex;
+   flex-direction: column;
+   top: 20%;
+   padding-left: 17%;
+ }
+
+ @media only screen and (max-width: 1700px) {
+   .LayoutStudies {
+      margin: 0 0;
+   }
+   .Studies {
+      top: 15%;
+   }
+}
+ 
+ @media only screen and (max-width: 500px) {
+    .LayoutStudies {
+       margin: 0 0;
+    }
+    .Studies {
+       top: 12%;
+    }
+ }
+
+ @media only screen and (max-width: 400px) {
+   .LayoutStudies {
+      margin: 0 0;
+   }
+   .Studies {
+      top: 12%;
+   }
+}

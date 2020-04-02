@@ -1,0 +1,39 @@
+
+.container {
+  height: 100vh;
+  margin: 0 1%;
+  
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no_page {
+   
+  position: absolute;
+  color: white;
+  flex-direction: column;
+}
+.no_page h1 {
+  font-size: 100px;
+  animation-name: animacion;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animacion {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container {
+    margin: 0 0;
+  }
+}

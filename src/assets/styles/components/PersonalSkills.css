@@ -1,0 +1,45 @@
+.PersonalSkills-container{
+    color: white;
+    position: absolute;
+    right:30.3%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    bottom: 5%;
+}
+@media only screen and (max-width: 1000px) {
+    .PersonalSkills-container {
+       right: 27%;
+    }
+ }
+ 
+ @media only screen and (max-width: 600px) {
+    .PersonalSkills-container {
+       right: 10%;
+       font-size: 0.8em;
+    }
+ }
+ 
+ @media only screen and (max-width: 500px) {
+    .PersonalSkills-container {
+       bottom: 20%;
+    }
+ }
+ 
+ @media only screen and (max-width: 400px) {
+    .PersonalSkills-container {
+       font-size: 0.8em;
+    }
+ }
+ 
+ @media only screen and (max-width: 360px) {
+    .PersonalSkills-container {
+       bottom: 13%;
+    }
+ }
+ 
+ @media only screen and (max-width: 320px) {
+    .PersonalSkills-container {
+       display: none;
+    }
+ }

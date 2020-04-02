@@ -1,0 +1,11 @@
+.LayoutWork {
+    height: 100vh;
+    margin: 0 1%;
+    position: relative;
+ }
+ 
+ @media only screen and (max-width: 500px) {
+    .LayoutWork {
+       margin: 0 0;
+    }
+ }

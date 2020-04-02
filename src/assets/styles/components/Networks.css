@@ -1,0 +1,44 @@
+.Networks-container{
+    position:  absolute;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    left: 3%;
+}
+
+.Networks-container img{
+    margin-bottom: 2em;
+    width: 6vh;
+    height: 6vh;
+    cursor: pointer;
+}
+
+.Networks-container img:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+}
+.Paragraph{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+.Paragraph p{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    animation: paragraph infinite 2s;
+}
+
+@keyframes paragraph {
+    0%{transform: scale(.9)}
+    50%{transform: scale(1)}
+    100%{transform: scale(.9)}
+  }
+
+  @media only screen and (max-width: 500px) {
+    .Networks-container {
+       transform: scale(0.8);
+    }
+ }
+  
