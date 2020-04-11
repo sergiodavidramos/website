@@ -13,6 +13,7 @@ import reactnative from "../assets/static/technologies/react-native.png";
 import react from "../assets/static/technologies/react.png";
 import redux from "../assets/static/technologies/redux.png";
 import Hashtag from "../assets/static/technologies/hashtag.png";
+import express from "../assets/static/technologies/express.jpg";
 import javascript from "../assets/static/technologies/javascript.png";
 import bootstrap from "../assets/static/technologies/bootstrap.png";
 import vue from "../assets/static/technologies/vue.png";
@@ -21,7 +22,7 @@ import sqlite from "../assets/static/technologies/sqlite.png";
 import mini from "../assets/static/company/mini.svg";
 import planeta from "../assets/static/company/planeta.png";
 import sertecLogo from "../assets/static/company/Sertec-logo.png";
-
+import adminPro from "../assets/static/company/admin.png";
 const setImageTechnology = name => {
   switch (name) {
     case "Angular":
@@ -58,6 +59,8 @@ const setImageTechnology = name => {
       return javascript;
     case "Bootstrap":
       return bootstrap;
+    case "Express":
+      return express;
     default:
       return "";
   }
@@ -70,6 +73,8 @@ const setImageCompany = name => {
       return planeta;
     case "sertec":
       return sertecLogo;
+    case "admin":
+      return adminPro;
     default:
       return "";
   }

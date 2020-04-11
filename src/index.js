@@ -202,16 +202,24 @@ const initialState = {
           para facilitar el funcionamiento de la institucion permitiendo asi controlar el desempeño de cada empleado y llevar adelante auditorías.`,
         technologies: [
           {
-            technology: "Javascript",
+            technology: "MongoDB",
             index: 1
           },
           {
-            technology: "Bootstrap",
+            technology: "Express",
             index: 2
-          }
+          },
+          {
+            technology: "Angular",
+            index: 3
+          },
+          {
+            technology: "Node.js",
+            index: 4
+          },
         ],
         year: "2018",
-        image: "sertec"
+        image: "admin"
       }
     ],
 
