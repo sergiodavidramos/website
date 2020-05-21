@@ -175,7 +175,7 @@ const initialState = {
         id: 4,
         name: "Sertec Conf",
         role: "Desarrollador web",
-        description: `Desarrollé una 
+        description: `Desarrollé un 
           sitio web para una conferencia con JavaScript Vanilla y Bootstrap con todas las 
           secciones necesarias ademas de ser responsive.`,
         technologies: [
@@ -233,16 +233,16 @@ const initialState = {
         infoSpanish:
           "He practicado todo sobre programación web tanto en frontend como en backend y programación móvil, enfocado en lenguajes como Javascript, Python y Kotlin. En este momento estoy aprendiendo más sobre Python y Django.",
         certificates: [
-          "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/base-de-deatos.png?alt=media&token=c45dc404-0c49-4ec7-bb1a-0e95e2df0be0",
-          "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/javascript-profesional.png?alt=media&token=3dddffc8-73ab-4930-ae35-b73c36e9c110",
-          "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/github.png?alt=media&token=ca81d44a-df81-4bd1-b872-bab114706ad0",
-          "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/seguridad.png?alt=media&token=3a317364-d1ba-4136-94f2-663fda23d999",
-          "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/animated.png?alt=media&token=c3a7d55f-5f81-4df7-9a46-23c97279fbee",
-          "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/frontend.png?alt=media&token=7747fb8e-9a70-48dc-8922-2b12ba15c22e",
-          "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/react.png?alt=media&token=ebaa134f-54db-4209-a345-26fe62f158ab",
-          "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/web-online.png?alt=media&token=53b8413a-38ce-40f5-a65e-669a417c1a3f",
-          "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/redux.png?alt=media&token=857ba212-c4ee-4229-a86a-f8868520081d",
-          "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/router.png?alt=media&token=0516bdb2-d3c0-4f09-a024-0428f1634f8e"
+        //   "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/base-de-deatos.png?alt=media&token=c45dc404-0c49-4ec7-bb1a-0e95e2df0be0",
+        //   "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/javascript-profesional.png?alt=media&token=3dddffc8-73ab-4930-ae35-b73c36e9c110",
+        //   "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/github.png?alt=media&token=ca81d44a-df81-4bd1-b872-bab114706ad0",
+        //   "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/seguridad.png?alt=media&token=3a317364-d1ba-4136-94f2-663fda23d999",
+        //   "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/animated.png?alt=media&token=c3a7d55f-5f81-4df7-9a46-23c97279fbee",
+        //   "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/frontend.png?alt=media&token=7747fb8e-9a70-48dc-8922-2b12ba15c22e",
+        //   "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/react.png?alt=media&token=ebaa134f-54db-4209-a345-26fe62f158ab",
+        //   "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/web-online.png?alt=media&token=53b8413a-38ce-40f5-a65e-669a417c1a3f",
+        //   "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/redux.png?alt=media&token=857ba212-c4ee-4229-a86a-f8868520081d",
+        //   "https://firebasestorage.googleapis.com/v0/b/website-b1d1f.appspot.com/o/router.png?alt=media&token=0516bdb2-d3c0-4f09-a024-0428f1634f8e"
         ],
         margin: 40
       },
