@@ -6,7 +6,7 @@ import instagram from "../assets/static/instagram.svg";
 import twitter from "../assets/static/twitter.svg";
 import "../assets/styles/components/Networks.css";
 
-const Networks = ({info1, info2, info3}) => (
+const Networks = ({ info1, info2, info3 }) => (
   <div className="Networks-container">
     <Animated animationIn="flipInX" animationInDelay={3000} isVisible={true}>
       <div className="Paragraph">
@@ -21,12 +21,12 @@ const Networks = ({info1, info2, info3}) => (
       </a>
     </Animated>
     <Animated animationIn="flipInX" animationInDelay={2000} isVisible={true}>
-      <a href="https://twitter.com/servidramos" target="blank">
+      <a href="https://twitter.com/ervicode" target="blank">
         <img src={twitter} alt="Twitter" />
       </a>
     </Animated>
     <Animated animationIn="flipInX" animationInDelay={2000} isVisible={true}>
-      <a href="https://www.instagram.com/sergio_david_ramos/" target="blank">
+      <a href="https://www.instagram.com/ervicode/" target="blank">
         <img src={instagram} alt="Instagram" />
       </a>
     </Animated>
